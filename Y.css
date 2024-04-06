@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+ 
+
+
+  
+.menu{
+
+width: 20%;
+height: 120vh;
+background-color: #eacfc8;
+
+
+  }
+
+
+
+main{
+
+font-family: Arial, Helvetica, sans-serif;
+display:flex ;
+justify-content: space-between;
+
+}
+
+hr{
+    
+    width: 70%;
+    height: 4px;
+    color: black;
+    background-color:black;
+    text-align:left;
+    margin-left:10px
+
+}
+
+form{
+
+margin-left: 5%;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3CB1BC; 
+    padding: 10px 20px;
+    color: white;
+  }
+
+  .header .logo {
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .header nav {
+    display: flex;
+  }
+
+  .header nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  
+
+  .Page{
+
+    width: 80%;
+    height: 95vh;
+    background-color: #FDFD96;
+
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    .my-products-section {
+      display: flex;
+      width: 80%;
+      background-color: #F0E68C;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: stretch;
+      gap: 20px; 
+      padding: 20px;
+    }
+    .product-card {
+      background-color: #C2B280;
+      border-radius: 10px; 
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      box-sizing: border-box;
+      flex: 0 1 calc(25% - 20px); 
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-bottom: 5px; 
+  }
+    .product-title {
+      text-align: center;
+      color: #333;
+      margin: 0 0 5px;
+    }
+    .product-brand,
+    .product-price {
+      color: black;;
+      text-align: center;
+      margin: 0;
+      font-size: 14px;
+    }
+    .product-description {
+      color: black;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+    .add-to-cart-btn {
+      background-color: #b26f46;
+      color: white;
+      border: none;
+      padding: 10px 10px;
+      cursor: pointer;
+      text-transform: uppercase;
+      margin-top: 5px;
+      margin-left: 20%;
+      border-radius: 10px; 
+    }
+
+    .h2{
+
+      text-align: center;
+    }
+
+ 
+   
+  
+      .button-1 {
+        background-color: #3C9189;
+        border-radius: 8px;
+        border-style: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        height: 40px;
+        line-height: 20px;
+        list-style: none;
+        margin: 0;
+        outline: none;
+        padding: 10px 16px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: color 100ms;
+        vertical-align: baseline;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        margin-right: 5px;
+      }
+      
+      .button-1:hover,
+      .button-1:focus {
+        background-color: #F082AC;
+      }
+
+      .logo{
+
+        font-family: Comic Sans MS, Comic Sans, cursive;
+
+
+      }
+
+      .hr2{
+
+        width: 100%;
+        height: 3px;
+        color: black;
+        background-color:black;
+        text-align:left;
+       
+    
+
+
+
+      }
+
+    
